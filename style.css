@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Cover */
+.home-background {
+    background: url("https://i.ibb.co/pQq8g8m/cover.png");
+    height: 100vh;
+}
+
+.home-text {
+    position: absolute;
+    width: 35%;
+    top: 35%;
+    left: 10%;
+}
+
+.home-text>h1 {
+    font-family: calibri;
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin-bottom: 20px;
+    color: #312b39;
+}
+
+.home-text>p {
+    font-family: calibri;
+    font-size: 23px;
+    color: #312b39;
+}
+
+.home-text-link {
+    color: #ee7081 !important;
+    text-decoration: none;
+}
+
+.home-button {
+    margin-top: 30px;
+}
+
+.home-button>.learn-button {
+    background-color: #ee7081;
+    padding: 10px 20px;
+    color: white;
+    font-family: calibri;
+    font-size: 23px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px rgba(238, 112, 129, 0.7);
+}
+
+.home-button>.play-button {
+    padding: 10px 20px;
+    font-family: calibri;
+    font-size: 23px;
+    text-decoration: none;
+    color: #8a858e;
+}
+
+.scroll-down {
+    position: absolute;
+    width: 5%;
+    top: 90%;
+    left: 47.5%;
+}
+
+.scroll-down>img {
+    width: 50%;
+    margin: 0 25%;
+}

@@ -1,0 +1,56 @@
+header {
+    float: left;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.logo {
+    width: 10%;
+    float: left;
+    margin-left: 10%;
+}
+
+.logo img {
+    margin: 0 auto;
+}
+
+.menu {
+    padding: 14.5px 0;
+    float: left;
+    width: 42%;
+    margin-left: 38%;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    font-family: calibri;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.active {
+    color: #ee7081 !important;
+}
+
+.nav-sign-in {
+    margin-left: 25%;
+}
+
+.nav-sign-in>a {
+    border: 1px solid #ee7081;
+    color: #ee7081 !important;
+    padding: 5px 25px !important;
+    border-radius: 5px;
+}
+
+.nav-sign-in>a:hover {
+    background-color: #ee7081;
+    color: white !important;
+    transition: 0.4s;
+}
